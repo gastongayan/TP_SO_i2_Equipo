@@ -1,3 +1,0 @@
-Creacion del archivo NuevoDato.txt mediante vim
-
-Cambio de usuario
