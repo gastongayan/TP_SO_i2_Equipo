@@ -1,3 +1,8 @@
+Florencia Galeano - ALFA
+Gaston Gayan - BETA
+Jacob Cristopher - GAMMA
+
+
 RESPUESTAS A LA INTERACCION NRO 2
 
 a) para la actualizacion de un repositorio previamente forkeado se utiliza el comando git remote add upstream "repositorio de origen"
