@@ -1,3 +1,62 @@
-Galeano Florencia
-Jacob Cristopher
-Gaston Gayan
+RESPUESTAS A LA INTERACCION NRO 2
+
+a) para la actualizacion de un repositorio previamente forkeado se utiliza el comando git remote add upstream "repositorio de origen"
+b) Sí, puede.
+c) No.
+d) No se pierde, habria que hacer un merge.
+
+
+
+e)
+
+CREACION DEL REPOSITORIO
+
+DESDE BETA:
+
+Creacion repositorio en plataforma web GitHub.com
+Creacion una carpeta en el escritorio
+Se ejecuta consola GitBash y se escriben los siguientes comandos:
+   
+  git init
+   git clone https://github.com/gastongayan/TP_SO_i2_Equipo.git
+   git config --global user.email gastongayan@hotmail.com
+   git config --global user.name gastongayan
+   git status
+   vim fork.txt
+   :wq
+   git add fork.txt
+   git commit "Creacion de archivo fork.txt"
+   git push
+
+
+FORK
+
+DESDE GAMMA:
+
+Se realiza el fork del repositorio de BETA descargando previamente complemento para git bash "GitHub CLI"
+  
+  gh auth login -w (se procede al logueo mediante la pagina)
+  gh repo fork https://github.com/gastongayan/TP_SO_i2_Equipo.git
+  
+
+DESDE ALFA
+
+Se realiza el fork del repositorio de BETA descargando previamente complemento para git bash "GitHub CLI"
+  
+  gh auth login -w (se procede al logueo mediante la pagina)
+  gh repo fork https://github.com/gastongayan/TP_SO_i2_Equipo.git
+
+
+CREACION DE DOCUMENTO NuevoDato.txt
+
+  vim NuevoDato.txt
+  :wq
+  git add NuevoDato.txt
+  git commit -m "Creacion de NuevoDato.txt"
+  git push
+
+ACTUALIZAR DESDE ALFA Y GAMMA AL ESTADO QUE DEJO BETA
+
+  git remote add upstream https://github.com/gastongayan/TP_SO_i2_Equipo.git
+
+  
